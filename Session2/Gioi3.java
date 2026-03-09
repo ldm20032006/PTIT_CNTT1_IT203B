@@ -41,7 +41,7 @@ class Student implements Authenticatable {
 
 public class Gioi3 {
     public static void main(String[] args) {
-        Student student = new Student("son", "son");
+        Student student = new Student("minh", "minh");
         System.out.println(student.isAuthenticated());
         String encrypted = Authenticatable.encrypt(student.getPassword());
         System.out.println(encrypted);

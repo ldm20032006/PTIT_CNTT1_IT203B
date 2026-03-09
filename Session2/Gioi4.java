@@ -21,7 +21,7 @@ class User {
 
 public class Gioi4 {
     public static void main(String[] args) {
-        List<String> names = new ArrayList<>(Arrays.asList("Son", "Kien", "Tron", "Bui Son"));
+        List<String> names = new ArrayList<>(Arrays.asList("Minh", "Linh", "Toan", "Vuong"));
         // () -> new User() (Tham chiếu Constructor).
         List<User> users = names.stream().map(User::new).toList();
         // (user) -> user.getUsername() (Tham chiếu instance method của đối tượng bất kỳ

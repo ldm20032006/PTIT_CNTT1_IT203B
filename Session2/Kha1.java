@@ -30,7 +30,7 @@ class User {
 
 public class Kha1 {
     public static void main(String[] args) {
-        User user = new User("Son", "user");
+        User user = new User("Minh", "user");
         // Kiểm tra xem một User có phải là Admin hay không (trả về true/false).
         Predicate<User> isAdmin = (u) -> u.getRole().equals("admin");
         System.out.println(isAdmin.test(user) ? "Admin" : "User");

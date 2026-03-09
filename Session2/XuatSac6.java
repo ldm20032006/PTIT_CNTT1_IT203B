@@ -27,7 +27,7 @@ class UserUtils {
 
 public class XuatSac6 {
     public static void main(String[] args) {
-        User user = new User("son");
+        User user = new User("minh");
         UserProcessor userProcessor = UserUtils::convertToUpperCase;
         System.out.println(userProcessor.process(user));
     }
